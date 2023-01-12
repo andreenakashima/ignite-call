@@ -69,17 +69,17 @@ export const TimePickerItem = styled('button', {
     marginBottom: '$6',
   },
 
-  '$:disabled': {
+  '&:disabled': {
     background: 'none',
     cursor: 'default',
     opacity: 0.4,
   },
 
-  '$:not(:disabled):hover': {
+  '&:not(:disabled):hover': {
     background: '$gray500',
   },
 
-  '$:focus': {
+  '&:focus': {
     boxShadow: '0 0 0 2px $colors$gray100',
   },
 })
